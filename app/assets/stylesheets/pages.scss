@@ -1,0 +1,63 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* {
+  border-style: dashed;
+  border-size: 1px;
+  border-color: red
+}
+*/
+
+.header h1{
+  font-family: 'Roboto';
+  font-weight: 300;
+  //font-style: italic
+}
+
+.menu{
+  text-align: right;
+
+}
+
+.name {
+  background: yellow;
+  text-align: left;
+  padding: 40px 0 40px 0
+}
+
+
+.header li {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  display: inline-block;
+  padding: 40px 0 40px 0
+
+}
+
+.jumbotron {
+  background: url('portfolio_desk.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: left;
+  padding: 100px;
+  margin-bottom: 30px;
+}
+
+.welcome h2{
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding: 40px 0 40px 0
+}
+
+.highlight{
+
+  background:white
+}
+
+///////social
+.github{
+  background-image: url('github10.png');
+  background-size: 24 px 24px
+}
