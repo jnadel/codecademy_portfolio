@@ -2,12 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/* {
-  border-style: dashed;
-  border-size: 1px;
-  border-color: red
-}
-*/
+// * {
+//   border-style: dashed;
+//   border-size: 1px;
+//   border-color: red
+// }
+
 
 .header h1{
   font-family: 'Roboto';
@@ -17,13 +17,19 @@
 
 .menu{
   text-align: right;
+  align: left
 
+}
+
+.namepanel {
+  background: yellow;
 }
 
 .name {
   background: yellow;
   text-align: left;
-  padding: 40px 0 40px 0
+  padding: 20px 0px 20px 0px;
+  margin-left:20px
 }
 
 
@@ -45,6 +51,15 @@
   margin-bottom: 30px;
 }
 
+.jumbotronport {
+  background: url('portfolio_desk_blurred.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  text-align: left;
+  padding: 100px;
+  margin-bottom: 30px;
+}
+
 .welcome h2{
   font-family: 'Roboto';
   font-weight: 300;
@@ -53,7 +68,8 @@
 
 .highlight{
 
-  background:white
+  background:white;
+  padding: 4px 8px 4px 4px
 }
 
 ///////social
@@ -61,3 +77,10 @@
   background-image: url('github10.png');
   background-size: 24 px 24px
 }
+
+
+///////unslider
+
+.banner { position: relative; overflow: auto; background:blue }
+  .banner li { list-style: none; }
+    .banner ul li { float: left; }
