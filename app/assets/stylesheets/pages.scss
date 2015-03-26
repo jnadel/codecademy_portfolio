@@ -1,24 +1,33 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+//
 // * {
 //   border-style: dashed;
-//   border-size: 1px;
 //   border-color: red
 // }
 
-
 .header h1{
   font-family: 'Roboto';
-  font-weight: 300;
+  font-weight: 400;
+  font-stretch:condensed;
+  padding: 0 0 0 20px;
+  color: black;
+  margin-bottom:0px
   //font-style: italic
 }
 
-.menu{
-  text-align: right;
-  align: left
+.header h5{
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding: 0 0 10px 20px;
+  color: black;
+  margin-top: 0px
+  //font-style: italic
+}
 
+a {
+  color:black;
 }
 
 .namepanel {
@@ -28,17 +37,18 @@
 .name {
   background: yellow;
   text-align: left;
-  padding: 20px 0px 20px 0px;
-  margin-left:20px
+  padding: 10px 0px 0px 00px;
+  margin-left:-20px
 }
 
 
 .header li {
   font-family: 'Roboto';
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
   display: inline-block;
-  padding: 40px 0 40px 0
+  color:black;
+  padding: 20px 0 40px 15px
 
 }
 
@@ -48,7 +58,7 @@
   height: 600px;
   text-align: left;
   padding: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .jumbotronport {
@@ -57,13 +67,14 @@
   height: 600px;
   text-align: left;
   padding: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .welcome h2{
   font-family: 'Roboto';
   font-weight: 300;
-  padding: 40px 0 40px 0
+  padding: 40px 0 40px 0;
+  color:black
 }
 
 .highlight{
@@ -72,15 +83,21 @@
   padding: 4px 8px 4px 4px
 }
 
-///////social
-.github{
-  background-image: url('github10.png');
-  background-size: 24 px 24px
+.footer li{
+  padding: 0px 0px 0px 15px;
+  float: right
 }
 
+/*carousel*/
 
-///////unslider
-
-.banner { position: relative; overflow: auto; background:blue }
-  .banner li { list-style: none; }
-    .banner ul li { float: left; }
+.item{
+    background: #333;
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
