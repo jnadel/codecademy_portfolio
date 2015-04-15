@@ -37,7 +37,7 @@ a {
 .name {
   background: yellow;
   // text-align: left;
-  padding: 10px 0px 8px 0px;
+  padding: 10px 0px 8px 10px;
   /*margin-left:-20px*/
 }
 
@@ -93,6 +93,17 @@ a {
 .footer li{
   padding: 0px 0px 0px 15px;
   float: right
+}
+
+/*portfolio*/
+.container .thumbnail {
+  padding: 0 px;
+  border: none;
+  box-shadow: none;
+}
+
+.first{
+  margin-top: 30px
 }
 
 /*carousel*/
